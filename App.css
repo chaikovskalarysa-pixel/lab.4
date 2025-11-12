@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.4;
+    color: #1f1f1f;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background: #f7f7f7;
+    padding: 12px 0;
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #31373e;
+    font-weight: 600;
+}
+
+.todo {
+    margin-top: 12px;
+}
+
+.form-container {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.input-text {
+    flex: 1;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.input-submit {
+    padding: 8px 12px;
+    background: #038203;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-item {
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.todo-item button {
+    margin-left: auto;
+    background: #d35e0f;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.completed {
+    font-style: italic;
+    color: #d35e0f;
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+.login-box {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 12px;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+.news-list {
+    margin-top: 10px;
+}
